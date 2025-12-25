@@ -1,4 +1,12 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+/* Переменные для основной (тёмной) темы */
+:root {
+  --bg-color: #000028;
+  --bg-image: url(../images/cover-image-dark.png);
+  --accent-color: #ff0070;
+  --text-color: #f1b2ce;
+  --title-color: #db00ff;
+  --header-title-color: #db00ff;
+  --card-title-bg: #ff0070;
+  --card-title-text: #000028;
+  --main-font: "IBM Plex Mono", monospace;
+}
