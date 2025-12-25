@@ -21,7 +21,7 @@
   min-height: 668px;
   height: 100vh;
   align-items: center;
-  margin-block-end: 36px;
+  margin-block-end: 38px;
 }
 
 /* Уголочки */
@@ -102,8 +102,6 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 0.825;
   text-shadow: 4px 4px 0 var(--accent-color);
-  align-self: start;
-  margin-block-end: 5px;
 }
 
 .header__subtitle {
@@ -115,7 +113,7 @@
   line-height: 1.3;
   background-color: var(--card-title-bg);
   color: var(--card-title-text);
-  margin-block-end: 20px;
+  margin-block-end: 13px;
 }
 
 /* Стили для состояний */
@@ -217,7 +215,7 @@
 .gallery {
   display: grid;
   gap: 10px;
-  margin-block-start: 10px;
+  margin-block-start: 8px;
 }
 
 .gallery__item {
