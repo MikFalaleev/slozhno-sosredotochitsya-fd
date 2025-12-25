@@ -10,7 +10,6 @@
   font-family: var(--main-font, sans-serif);
   color: var(--text-color);
   line-height: 1.5;
-  padding-inline: 10px;
 }
 
 /* Стили для хедера */
@@ -22,6 +21,7 @@
   height: 100vh;
   align-items: center;
   margin-block-end: 38px;
+  padding-inline: 10px;
 }
 
 /* Уголочки */
@@ -138,6 +138,7 @@
 .content {
   margin-block-end: 40px;
   font-size: 18px;
+  padding-inline: 10px;
 }
 
 .content__section {
