@@ -5,5 +5,7 @@
   --header-title-color: #db00ff;
   --card-title-bg: #ff0070;
   --card-title-text: #000028;
+  --menu-button-color: #ff0070;
+  --menu-button-hover-color: rgba(255, 0, 112, 0.4);
   --bg-image: url(../images/cover-image-dark.png);
 }

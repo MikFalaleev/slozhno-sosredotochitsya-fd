@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  font-family: var(--main-font, sans-serif);
+  font-family: var(--main-font, monospace);
   color: var(--text-color);
   line-height: 1.5;
 }
@@ -36,7 +36,7 @@
   block-size: 25px;
   border-inline-end: 1px solid var(--accent-color);
   border-block-start: 1px solid var(--accent-color);
-  inset-inline-end: 0px;
+  inset-inline-end: 10px;
   inset-block-start: 10px;
 }
 
@@ -47,8 +47,8 @@
   block-size: 25px;
   border-inline-start: 1px solid var(--accent-color);
   border-block-end: 1px solid var(--accent-color);
-  inset-inline-start: 0px;
-  inset-block-end: 15px;
+  inset-inline-start: 10px;
+  inset-block-end: 12px;
 }
 
 /* Точка REC */
@@ -56,8 +56,8 @@
   position: absolute;
   color: var(--accent-color);
   text-transform: uppercase;
-  inset-inline-end: 20px;
-  inset-block-start: 15px;
+  inset-inline-end: 21px;
+  inset-block-start: 12px;
   line-height: 1.4;
 }
 
@@ -75,6 +75,8 @@
 /* Стили для меню смены темы */
 .header__theme-menu {
   justify-self: end;
+  align-self: start;
+  padding-block-start: 73px;
 }
 
 .header__theme-menu-list {
@@ -87,11 +89,11 @@
 .header__theme-menu-button {
   border: none;
   background-color: transparent;
-  padding: 1.5px 13px;
+  padding: 2px 15px;
   text-transform: lowercase;
   cursor: pointer;
   line-height: 18px;
-  color: var(--text-color);
+  color: var(--menu-button-color);
 }
 
 /* Стили для логотипа */
@@ -118,7 +120,7 @@
 
 /* Стили для состояний */
 .header__theme-menu-button:hover {
-  border: 1px solid rgba(255, 0, 112, 0.4);
+  border: 1px solid var(--menu-button-hover-color);
 }
 
 .header__theme-menu-button:focus {
@@ -126,11 +128,11 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--menu-button-color);
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color);
+  border: 1px solid var(--menu-button-color);
   pointer-events: none;
 }
 
@@ -274,7 +276,7 @@
   }
 
   .header__title {
-    font-size: clamp(7.5rem, 5.6944rem + 3.7634vw, 9.8125rem);
+    font-size: clamp(7.5rem, 0.4625rem + 14.4531vw, 9.8125rem);
     margin-inline-start: -20px;
     margin-block-end: 0px;
   }
@@ -394,10 +396,6 @@
     gap: 15px;
   }
 
-  .header__title {
-    font-size: clamp(7.25rem, 5.7692rem + 6.3175vw, 9.8125rem);
-  }
-
   .header__subtitle {
     max-inline-size: 491px;
     margin-block-end: 20px;
@@ -420,10 +418,7 @@
     margin-block-start: 0px;
   }
 
-  .content__section-how
-    .content__articles
-    > .content__card-title
-    + .content__card {
+  .content__section-how .content__card-title + .content__card {
     margin-block-start: 20px;
   }
 

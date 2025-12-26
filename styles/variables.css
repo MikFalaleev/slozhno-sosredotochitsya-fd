@@ -9,4 +9,6 @@
   --card-title-bg: #ff0070;
   --card-title-text: #000028;
   --main-font: "IBM Plex Mono", monospace;
+  --menu-button-color: #ff0070;
+  --menu-button-hover-color: rgba(255, 0, 112, 0.4);
 }
