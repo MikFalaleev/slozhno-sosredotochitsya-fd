@@ -58,7 +58,8 @@
   text-transform: uppercase;
   inset-inline-end: 21px;
   inset-block-start: 12px;
-  line-height: 1.4;
+  line-height: 1.3;
+  font-size: 18px;
 }
 
 .header__decoration::after {
@@ -82,17 +83,18 @@
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 13px;
+  gap: 17px;
 }
 
 /* Стили для кнопок смены темы */
 .header__theme-menu-button {
   border: none;
   background-color: transparent;
-  padding: 2px 15px;
+  padding: 2px 13px;
   text-transform: lowercase;
   cursor: pointer;
-  line-height: 18px;
+  font-size: 18px;
+  line-height: 1;
   color: var(--menu-button-color);
 }
 
